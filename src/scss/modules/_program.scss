@@ -1,0 +1,20 @@
+.program {
+  position: relative;
+}
+
+.program-title-text {
+  font-family: "Century Gothic Bold";
+  font-size: 26px;
+  letter-spacing: 3;
+  text-transform: uppercase;
+}
+
+.program-title-number {
+  font-size: 12px;
+  color: var(--main-color);
+  position: absolute;
+  top: 0;
+  padding-left: 2px;
+  position: absolute;
+  margin-top: 12px;
+}
