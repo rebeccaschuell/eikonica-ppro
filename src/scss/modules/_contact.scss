@@ -1,3 +1,9 @@
+.contact {
+  border-top: solid 2px var(--ligne-color);
+  padding-top: 200px;
+  margin-bottom: 24px;
+}
+
 .contact-socialmedia {
   position: relative;
 }
@@ -17,4 +23,31 @@
   top: 0;
   padding-left: 2px;
   position: absolute;
+}
+
+.contact-logo {
+  font-size: 40px;
+}
+
+.contact-logo:hover {
+  color: var(--main-color);
+}
+
+.contact-links {
+  padding-top: 20px;
+}
+
+.contact-links p {
+  padding-top: 12px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contact-links a {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contact-links a:hover {
+  color: var(--main-color);
 }

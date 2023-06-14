@@ -21,7 +21,7 @@
 
 html {
   font-size: 16px;
-  background-color: pink;
+  background-color: var(--background-color);
   color: var(--font-color);
   font-family: "Century Gothic Bold";
   scroll-behavior: smooth;
