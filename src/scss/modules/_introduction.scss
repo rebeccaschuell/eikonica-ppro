@@ -1,0 +1,23 @@
+.introduction {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+.introduction-text {
+  font-size: 34px;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.introduction span {
+  font-style: italic;
+  color: var(--main-color);
+}
+
+.introduction-img img {
+  max-height: 710px;
+}
