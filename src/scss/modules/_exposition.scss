@@ -1,5 +1,6 @@
 .exposition {
-  margin-bottom: 160px;
+  margin-bottom: 1860px;
+  position: relative;
 }
 
 .exposition-title-container {
@@ -21,4 +22,67 @@
   top: 0;
   padding-left: 2px;
   position: absolute;
+}
+
+.exposition-background img {
+  // width: 100%;
+  // height: auto;
+  width: 100vw;
+  max-inline-size: none;
+  margin-left: -380px;
+  height: auto;
+}
+
+.exposition-art img {
+  height: auto;
+  width: auto;
+}
+
+.exposition-art-image-two {
+  padding-top: 100px;
+}
+
+.exposition-art-image-three {
+  padding-top: 36px;
+}
+
+.exposition-art-image-four {
+  // z-index: 2;
+  position: relative;
+  top: -74px;
+}
+
+.exposition-art-image-five {
+  // z-index: 2;
+  position: relative;
+  top: 28px;
+}
+
+.exposition-art-image-six {
+  // z-index: 2;
+  position: relative;
+  top: -38;
+}
+
+.exposition-art-image-seven {
+  // z-index: 2;
+  position: relative;
+  top: -48px;
+}
+
+.exposition-art-image-eight {
+  // z-index: 2;
+  position: relative;
+  top: 54px;
+}
+
+.exposition-art-image-nine {
+  // z-index: 2;
+  position: relative;
+  top: -12px;
+}
+
+.exposition-all-art {
+  position: absolute;
+  top: 700px;
 }
