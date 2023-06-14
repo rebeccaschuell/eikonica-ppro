@@ -1,12 +1,14 @@
 .information {
   position: relative;
+  margin-bottom: 160px;
 }
 
 .information-title-text {
   font-family: "Century Gothic Bold";
-  font-size: 26px;
-  letter-spacing: 3;
+  font-size: 20px;
+  letter-spacing: 2;
   text-transform: uppercase;
+  margin-bottom: 12px;
 }
 
 .information-title-number {
@@ -16,4 +18,54 @@
   top: 0;
   padding-left: 2px;
   position: absolute;
+}
+
+.information-pictogram i {
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--main-color);
+  padding-top: 26px;
+}
+
+.information-activities {
+  border-top: solid 2px var(--ligne-color);
+  // border-bottom: solid 2px var(--ligne-color);
+}
+
+.information-last-activity {
+  border-bottom: solid 2px var(--ligne-color);
+}
+
+.information-infos {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.information-second {
+  padding-bottom: 26px;
+}
+
+.information-first {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.information-one {
+  padding-bottom: 0;
+}
+
+.information-two {
+  padding-top: 100px;
+}
+
+.information-seven {
+  padding-bottom: 0;
+}
+
+.information-eight {
+  padding-top: 100px;
+}
+
+.information-ticketing:hover {
+  color: var(--main-color);
 }
