@@ -1,3 +1,47 @@
-.reservation {
+.reservation-background-image img {
+  width: 100%;
+  height: auto;
+  // opacity: 50%;
+  filter: blur(6);
+}
+
+.reservation-background-image {
+  position: relative;
   margin-bottom: 160px;
+}
+
+.reservation {
+  position: absolute;
+  top: 60px;
+  left: 8%;
+}
+
+.reservation-text {
+  font-size: 30px;
+  line-height: 36px;
+  padding-bottom: 24px;
+}
+
+.reservation-text span {
+  color: var(--main-color);
+  font-style: italic;
+}
+
+button {
+  border: solid 2px var(--font-color);
+  border-radius: 8px;
+  background-color: transparent;
+  padding: 16px 12px 16px 56px;
+}
+
+button a {
+  font-family: "Century Gothic Bold";
+  font-size: 26px;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 3;
+  color: var(--font-color);
+  text-decoration: none;
+  padding-left: 12px;
+  border-left: solid 2px var(--ligne-color);
 }
