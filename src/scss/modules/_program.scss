@@ -1,5 +1,6 @@
 .program {
   position: relative;
+  margin-bottom: 160px;
 }
 
 .program-title-text {
@@ -7,6 +8,7 @@
   font-size: 26px;
   letter-spacing: 3;
   text-transform: uppercase;
+  margin-bottom: 24px;
 }
 
 .program-title-number {
@@ -16,5 +18,31 @@
   top: 0;
   padding-left: 2px;
   position: absolute;
-  margin-top: 12px;
+}
+
+.program-date-text {
+  font-size: 30px;
+  line-height: 36px;
+  padding-left: 24px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.program-day {
+  border-bottom: solid 2px var(--ligne-color);
+}
+
+.program-day-fiday {
+  border-top: solid 2px var(--ligne-color);
+  border-bottom: solid 2px var(--ligne-color);
+}
+
+.program-date-text span {
+  font-style: italic;
+  color: var(--main-color);
+}
+
+.program-arrow,
+img {
+  height: 30px;
 }
