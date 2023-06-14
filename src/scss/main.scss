@@ -1,3 +1,17 @@
 @import "base";
 @import "layout";
 @import "modules/example";
+@import "modules/navigation";
+@import "bootstrap/scss/bootstrap-grid";
+@font-face {
+  font-family: "Century Gothic";
+  src: url("../font/CenturyGothic.woff2") format("woff2"),
+    url("../font/CenturyGothic.woff") format("woff");
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Century Gothic Bold";
+  src: url("../font/CenturyGothic-Bold.woff2") format("woff2"),
+    url("../font/CenturyGothic-Bold.woff") format("woff");
+  font-display: fallback;
+}
