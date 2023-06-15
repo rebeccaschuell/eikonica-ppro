@@ -42,10 +42,6 @@
   margin-right: 0;
 }
 
-.navigation-fr-language {
-  color: var(--main-color);
-}
-
 p.navigation-fr-language {
   margin-right: 0;
   padding-right: 12px;
@@ -71,4 +67,24 @@ p.navigation-de-language {
 .navigation-link:hover .navigation-text-number {
   color: var(--font-color);
   transition: 1.4s;
+}
+
+// .language.navigation-change-color {
+//   background: var(--font-color);
+// }
+
+// .color-change {
+//   color: red;
+// }
+
+.fr-language {
+  color: var(--main-color);
+}
+
+.is-white {
+  color: var(--font-color);
+}
+
+.is-blue {
+  color: var(--main-color);
 }

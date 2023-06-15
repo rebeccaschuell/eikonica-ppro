@@ -3,7 +3,7 @@
   border: none;
   box-shadow: 0 0 24px var(--main-color);
   position: fixed;
-  bottom: 100px;
+  bottom: 120px;
   right: 10px;
   z-index: 4;
 }
@@ -12,3 +12,7 @@
   color: var(--background-color);
   border-left: solid 2px var(--background-color);
 }
+
+// .ticketing-button a {
+//   border-left: solid 2px var(--background-color);
+// }
