@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   margin-left: 48px;
-  margin-top: 48px;
+  margin-top: 24px;
   margin-bottom: 20px;
 }
 
@@ -62,4 +62,13 @@ p.navigation-de-language {
 
 .navigation a {
   text-decoration: none;
+}
+
+.navigation-link:hover {
+  color: var(--main-color);
+}
+
+.navigation-link:hover .navigation-text-number {
+  color: var(--font-color);
+  transition: 1.4s;
 }
