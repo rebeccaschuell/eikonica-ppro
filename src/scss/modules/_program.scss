@@ -28,15 +28,6 @@
   padding-bottom: 26px;
 }
 
-// .program-day {
-//   border-bottom: solid 2px var(--ligne-color);
-// }
-
-// .program-day-fiday {
-//   border-top: solid 2px var(--ligne-color);
-//   border-bottom: solid 2px var(--ligne-color);
-// }
-
 .program-date-text span {
   font-style: italic;
   color: var(--main-color);
@@ -55,10 +46,6 @@ img {
 .program-arrow {
   transition: 0.4s;
 }
-
-// .program-accordion {
-//   border-top: 2px solid var(--ligne-color);
-// }
 
 .program-accordion-friday {
   border-top: 2px solid var(--ligne-color);
@@ -80,19 +67,6 @@ img {
   font-size: 20px;
   line-height: 26px;
 }
-
-// .program-friday {
-//   border-top: 2px solid var(--ligne-color);
-//   border-bottom: 2px solid var(--ligne-color);
-// }
-
-// .program-saturday {
-//   border-bottom: 2px solid var(--ligne-color);
-// }
-
-// .program-sunday {
-//   border-bottom: 2px solid var(--ligne-color);
-// }
 
 .program-accordion-content span {
   color: var(--main-color);
