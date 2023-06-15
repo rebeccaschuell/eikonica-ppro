@@ -12,7 +12,7 @@
 
 .reservation {
   position: absolute;
-  top: 70px;
+  top: 35%;
   left: 8%;
 }
 
@@ -43,5 +43,5 @@ button a {
   color: var(--font-color);
   text-decoration: none;
   padding-left: 12px;
-  border-left: solid 2px var(--ligne-color);
+  border-left: solid 2px var(--font-color);
 }
