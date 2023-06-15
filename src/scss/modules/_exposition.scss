@@ -1,93 +1,75 @@
-// .exposition {
-//   margin-bottom: 1860px;
-//   position: relative;
-// }
+.exposition-title-container {
+  position: relative;
+}
 
-// .exposition-title-container {
-//   position: relative;
-// }
+.exposition-title-text {
+  font-family: "Century Gothic Bold";
+  font-size: 20px;
+  letter-spacing: 2;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
 
-// .exposition-title-text {
-//   font-family: "Century Gothic Bold";
-//   font-size: 20px;
-//   letter-spacing: 2;
-//   text-transform: uppercase;
-//   margin-bottom: 12px;
-// }
+.exposition-title-number {
+  font-size: 12px;
+  color: var(--main-color);
+  position: absolute;
+  top: 0;
+  padding-left: 2px;
+  position: absolute;
+}
 
-// .exposition-title-number {
-//   font-size: 12px;
-//   color: var(--main-color);
-//   position: absolute;
-//   top: 0;
-//   padding-left: 2px;
-//   position: absolute;
-// }
-
-// .exposition-background img {
-//   // width: 100%;
-//   // height: auto;
-//   width: 100vw;
-//   max-inline-size: none;
-//   margin-left: -380px;
-//   height: auto;
-// }
+.exposition-background img {
+  width: 100vw;
+  max-inline-size: none;
+  margin-left: -380px;
+  height: auto;
+  position: relative;
+}
 
 // .exposition-art img {
 //   height: auto;
 //   width: auto;
 // }
 
-// .exposition-art-image-two {
-//   padding-top: 100px;
+// .exposition-art img:hover {
+//   transform: scale(1.02);
 // }
 
-// .exposition-art-image-three {
-//   padding-top: 36px;
-// }
-
-// .exposition-art-image-four {
-//   // z-index: 2;
-//   position: relative;
-//   top: -74px;
-// }
-
-// .exposition-art-image-five {
-//   // z-index: 2;
-//   position: relative;
-//   top: 28px;
-// }
-
-// .exposition-art-image-six {
-//   // z-index: 2;
-//   position: relative;
-//   top: -38;
-// }
-
-// .exposition-art-image-seven {
-//   // z-index: 2;
-//   position: relative;
-//   top: -48px;
-// }
-
-// .exposition-art-image-eight {
-//   // z-index: 2;
-//   position: relative;
-//   top: 54px;
-// }
-
-// .exposition-art-image-nine {
-//   // z-index: 2;
-//   position: relative;
-//   top: -12px;
-// }
-
-// .exposition-all-art {
-//   position: absolute;
-//   top: 700px;
-// }
+.exposition-all-art {
+  // position: absolute;
+  position: relative;
+  // top: 600px;
+  top: -200px;
+}
 
 .exposition-images img {
   height: auto;
   width: auto;
+}
+
+.exposition-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.exposition-images-two {
+  padding-top: 100px;
+}
+
+.exposition-images-three {
+  padding-top: 36px;
+}
+
+.exposition-images img:hover {
+  transform: scale(1.02);
+}
+
+.exposition-artwork {
+  padding-top: 26px;
+  margin: 0;
+}
+
+.exposition-artwork-one {
+  padding-top: 0;
 }
