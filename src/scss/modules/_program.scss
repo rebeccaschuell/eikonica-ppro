@@ -28,14 +28,14 @@
   padding-bottom: 26px;
 }
 
-.program-day {
-  border-bottom: solid 2px var(--ligne-color);
-}
+// .program-day {
+//   border-bottom: solid 2px var(--ligne-color);
+// }
 
-.program-day-fiday {
-  border-top: solid 2px var(--ligne-color);
-  border-bottom: solid 2px var(--ligne-color);
-}
+// .program-day-fiday {
+//   border-top: solid 2px var(--ligne-color);
+//   border-bottom: solid 2px var(--ligne-color);
+// }
 
 .program-date-text span {
   font-style: italic;
@@ -44,5 +44,56 @@
 
 .program-arrow,
 img {
-  height: 30px;
+  height: 40px;
+  margin-top: 20;
+}
+
+.program-arrow:hover {
+  transform: rotate(90deg);
+}
+
+.program-arrow {
+  transition: 0.4s;
+}
+
+// .program-accordion {
+//   border-top: 2px solid var(--ligne-color);
+// }
+
+.program-accordion-friday {
+  border-top: 2px solid var(--ligne-color);
+}
+
+.program-accordion-item {
+  border-bottom: 2px solid var(--ligne-color);
+}
+
+.program-accordion-title {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.program-accordion-content {
+  padding: 26px;
+  display: none;
+  padding-top: 0;
+}
+
+// .program-friday {
+//   border-top: 2px solid var(--ligne-color);
+//   border-bottom: 2px solid var(--ligne-color);
+// }
+
+// .program-saturday {
+//   border-bottom: 2px solid var(--ligne-color);
+// }
+
+// .program-sunday {
+//   border-bottom: 2px solid var(--ligne-color);
+// }
+
+.program-accordion-content span {
+  color: var(--main-color);
+  font-style: italic;
+  line-height: 24px;
 }

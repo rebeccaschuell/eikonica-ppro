@@ -16,21 +16,31 @@
         <img src="../src/img/logo-eikonica.png" alt="Logo eikonica" />
       </div>
       <div class="navigation-navbar">
-        <p class="navigation-text">
-          programme<span class="navigation-text-number">01</span>
-        </p>
-        <p class="navigation-text">
-          expo<span class="navigation-text-number">02</span>
-        </p>
-        <p class="navigation-text">
-          infos<span class="navigation-text-number">03</span>
-        </p>
-        <p class="navigation-text">
-          partenaires<span class="navigation-text-number">04</span>
-        </p>
-        <p class="navigation-text">
-          contact<span class="navigation-text-number">05</span>
-        </p>
+        <a href="#program" class="navigation-link">
+          <p class="navigation-text">
+            programme<span class="navigation-text-number">01</span>
+          </p>
+        </a>
+        <a href="#expo" class="navigation-link">
+          <p class="navigation-text">
+            expo<span class="navigation-text-number">02</span>
+          </p>
+        </a>
+        <a href="#infos" class="navigation-link">
+          <p class="navigation-text">
+            infos<span class="navigation-text-number">03</span>
+          </p>
+        </a>
+        <a href="#partner" class="navigation-link">
+          <p class="navigation-text">
+            partenaires<span class="navigation-text-number">04</span>
+          </p>
+        </a>
+        <a href="#contact" class="navigation-link">
+          <p class="navigation-text">
+            contact<span class="navigation-text-number">05</span>
+          </p>
+        </a>
         <p class="navigation-text navigation-language navigation-fr-language">
           Fr
         </p>
@@ -42,25 +52,11 @@
     <div class="ticketing-button">
       <button><a href="" class="ticketing-button">Billets</a></button>
     </div>
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <video width="auto" height="auto" autoplay>
-              <source src="../src/video/logo-annime.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <div class="col-12">
-            <video width="auto" height="auto" controls>
-              <source src="../src/video/logo-annime.mp4" type="video/mp4" />
-            </video>
-          </div>
-        </div>
-      </div>
-    </header>
+    <header></header>
     <main>
       <div class="container">
         <div class="row">
+          <div class="col-12">video</div>
           <div class="col-12">video</div>
         </div>
       </div>
@@ -95,7 +91,7 @@
           </div>
         </div>
       </div>
-      <div class="program">
+      <div class="program" id="program">
         <div class="container">
           <div class="row">
             <div class="col-9">
@@ -105,7 +101,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-9">
+            <!-- <div class="col-9">
               <div class="program-day program-day-fiday">
                 <div class="row">
                   <div class="col-11">
@@ -160,11 +156,145 @@
                   </div>
                 </div>
               </div>
+            </div> -->
+            <div class="container">
+              <div class="row">
+                <div class="col-9">
+                  <div class="program-accordion program-accordion-friday">
+                    <div class="program-accordion-item">
+                      <div class="program-accordion-title">
+                        <div class="row">
+                          <div class="col-11">
+                            <p class="program-date-text">
+                              Vendredi
+                              <span>13.10.2023</span>
+                            </p>
+                          </div>
+                          <div class="col-1">
+                            <img
+                              src="../src/img/arrow.webp"
+                              alt="Click pour visiter le programme"
+                              class="program-arrow"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="program-accordion-content">
+                        <p>
+                          <span>10:00 - </span> Ouverture des portes et accueil
+                          des visiteurs<br />
+                          <span>11:00 - </span> Conférence inaugurale sur les
+                          tendances actuelles de l'art numérique<br />
+                          <span>13:30 - </span> Pause repas<br />
+                          <span>14:00 - </span> Atelier "Initiation à la réalité
+                          virtuelle" pour les retraités<br />
+                          <span>16:00 - </span> Atelier "Pixel Art" pour les
+                          enfants<br />
+                          <span>18:00 - </span> Vernissage des expositions<br />
+                          <span>20:00 - </span> Concert d'ouverture avec
+                          l’artiste fribourgeois Kinetic Flow
+                        </p>
+                      </div>
+                    </div>
+                    <div class="program-accordion-item">
+                      <div class="program-accordion-title">
+                        <div class="row">
+                          <div class="col-11">
+                            <p class="program-date-text">
+                              Samedi
+                              <span>14.10.2023</span>
+                            </p>
+                          </div>
+                          <div class="col-1">
+                            <img
+                              src="../src/img/arrow.webp"
+                              alt="Click pour visiter le programme"
+                              class="program-arrow"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="program-accordion-content">
+                        <p>
+                          <span>10:00 - </span> Ouverture des portes et accueil
+                          des visiteurs<br />
+                          <span>11:00 - </span> Conférence sur la place de l'art
+                          numérique dans les industries créatives<br />
+                          <span>13:30 - </span> Pause repas<br />
+                          <span>14:00 - </span> Atelier "Création d'un GIF
+                          animé" pour les enfants<br />
+                          <span>16:00 - </span> Atelier "Création d'une oeuvre
+                          interactive"<br />
+                          <span>18:00 - </span> Projection en avant-première du
+                          film d'animation “Le rêve de Luna”<br />
+                          <span>20:00 - </span> Concert avec le groupe belge
+                          Neon Pulse
+                        </p>
+                      </div>
+                    </div>
+                    <div class="program-accordion-item">
+                      <div class="program-accordion-title">
+                        <div class="row">
+                          <div class="col-11">
+                            <p class="program-date-text">
+                              Dimanche
+                              <span>15.10.2023</span>
+                            </p>
+                          </div>
+                          <div class="col-1">
+                            <img
+                              src="../src/img/arrow.webp"
+                              alt="Click pour visiter le programme"
+                              class="program-arrow"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="program-accordion-content">
+                        <p>
+                          <span>10:00 - </span> Ouverture des portes et accueil
+                          des visiteurs<br />
+                          <span>11:00 - </span> Conférence sur l'avenir de l'art
+                          numérique et ses implications sociales<br />
+                          <span>12:30 - </span> Pause repas<br />
+                          <span>14:00 - </span> Atelier "Fabrication de circuits
+                          électroniques" pour les retraités<br />
+                          <span>16:00 - </span> Atelier "Introduction à la
+                          programmation" pour les enfants<br />
+                          <span>17:00 - </span> Clôture du festival avec
+                          performance artistique de l’artiste Min-Jae Park
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- <div class="program-accordion">
+              <div class="program-accordion-item">
+                <div class="program-accordion-title">Vendredi</div>
+                <div class="program-accordion-content">
+                  Contenu de l'élément 1
+                </div>
+              </div>
+              <div class="program-accordion-item">
+                <div class="program-accordion-title">Samedi</div>
+                <div class="program-accordion-content">
+                  Contenu de l'élément 2
+                </div>
+              </div>
+
+              <div class="program-accordion-item">
+                <div class="program-accordion-title">Dimanche</div>
+                <div class="program-accordion-content">
+                  Contenu de l'élément 3
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
       </div>
-      <div class="exposition">
+      <div class="exposition" id="expo">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -187,7 +317,23 @@
                 </div>
               </div>
             </div>
-            <div class="exposition-art">
+            <div class="exposition-container">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="expostion-image">
+                          <img src="../src/img/oeuvre1.webp" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="exposition-art">
               <div class="container">
                 <div class="row">
                   <div class="col-12">
@@ -261,11 +407,10 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
+            </div> -->
         </div>
       </div>
-      <div class="information">
+      <div class="information" id="infos">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -474,7 +619,7 @@
           </div>
         </div>
       </div>
-      <div class="partner">
+      <div class="partner" id="partner">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -530,7 +675,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="contact">
+            <div class="contact" id="contact">
               <div class="row">
                 <div class="col-7">
                   <div class="contact-links">
