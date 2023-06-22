@@ -2,6 +2,11 @@
   transform: translateY(-80px);
 }
 
+.exposition-all-art {
+  position: relative;
+  top: -200px;
+}
+
 .exposition-title-container {
   position: relative;
 }
@@ -23,37 +28,15 @@
   position: absolute;
 }
 
-.exposition-background img {
-  width: 100vw;
-  max-inline-size: none;
-  margin-left: -380px;
-  height: auto;
-  position: relative;
-}
-
-.exposition-all-art {
-  // position: absolute;
-  position: relative;
-  // top: 600px;
-  top: -200px;
-}
-
-.exposition-images img {
-  height: auto;
-  width: auto;
-}
-
 .exposition-images {
   display: flex;
   flex-direction: column;
 }
 
-.exposition-images-two {
-  padding-top: 100px;
-}
-
-.exposition-images-three {
-  padding-top: 36px;
+.exposition-images img {
+  height: auto;
+  width: auto;
+  transition: 0.4s;
 }
 
 .exposition-images img:hover {
@@ -67,4 +50,12 @@
 
 .exposition-artwork-one {
   padding-top: 0;
+}
+
+.exposition-images-two {
+  padding-top: 100px;
+}
+
+.exposition-images-three {
+  padding-top: 36px;
 }
