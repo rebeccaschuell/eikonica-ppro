@@ -8,6 +8,29 @@
   margin-bottom: 24px;
 }
 
+.contact-links {
+  padding-top: 20px;
+}
+
+.contact-links a {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.contact-links a:hover {
+  color: var(--main-color);
+}
+
+.contact-second-link {
+  padding-top: 12px;
+}
+
+.contact-links p {
+  padding-top: 12px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
 .contact-socialmedia {
   position: relative;
 }
@@ -35,29 +58,6 @@
 }
 
 .contact-logo:hover {
-  color: var(--main-color);
-}
-
-.contact-links {
-  padding-top: 20px;
-}
-
-.contact-links p {
-  padding-top: 12px;
-  font-size: 20px;
-  line-height: 26px;
-}
-
-.contact-second-link {
-  padding-top: 12px;
-}
-
-.contact-links a {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-.contact-links a:hover {
   color: var(--main-color);
 }
 
