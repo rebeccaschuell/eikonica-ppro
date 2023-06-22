@@ -1,3 +1,7 @@
+.contact-id {
+  transform: translateY(0px);
+}
+
 .contact {
   border-top: solid 2px var(--ligne-color);
   padding-top: 200px;
@@ -44,6 +48,10 @@
   line-height: 26px;
 }
 
+.contact-second-link {
+  padding-top: 12px;
+}
+
 .contact-links a {
   font-size: 20px;
   line-height: 26px;
@@ -51,4 +59,22 @@
 
 .contact-links a:hover {
   color: var(--main-color);
+}
+
+.contact-top-button button {
+  border: none;
+  padding: 0;
+  box-shadow: 0 0 24px var(--main-color);
+}
+
+.contact-top-button a {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-top-button img {
+  width: 40px;
+  height: 40px;
+  margin: 0;
 }

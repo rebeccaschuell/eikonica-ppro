@@ -11,7 +11,7 @@
     ></script>
   </head>
   <body>
-    <div class="navigation">
+    <div class="navigation" id="top">
       <div class="navigation-logo">
         <img src="../src/img/logo-eikonica.png" alt="Logo eikonica" />
       </div>
@@ -80,30 +80,46 @@
         <a href="billeterie.html" class="ticketing-button">Billets</a>
       </button>
     </div>
-    <header></header>
-    <main>
+    <header>
       <div class="container">
         <div class="row">
-          <div class="col-12">video</div>
-          <div class="col-12">video</div>
+          <div class="col-12">
+            <video autoplay muted loop>
+              <source src="../src/video/logo-anime.mp4" type="video/mp4" />
+              <!-- <source src="movie.ogg" type="video/ogg" /> -->
+            </video>
+          </div>
+          <div class="col-12">
+            <video controls class="second-video">
+              <source
+                src="../src/video/eikonica_video_schuell_rebecca.mp4"
+                type="video/mp4"
+              />
+              <!-- <source src="movie.ogg" type="video/ogg"> -->
+            </video>
+          </div>
+          <div class="col-12">
+            <p class="video-legend">eikonica - 2023</p>
+          </div>
         </div>
       </div>
+    </header>
+    <main>
       <div class="introduction">
         <div class="container">
           <div class="row">
             <div class="col-7">
               <div class="introduction-text">
                 <p>
-                  Le festival d'<span>arts numériques</span> eikonica de
-                  <span>Fribourg</span> est l'événement à ne pas manquer pour
-                  tous les amateurs de nouvelles technologies, d'art
-                  contemporain et tous les curieux. Du
-                  <span>13 au 15 octobre</span>, venez explorer une grande
-                  variété d'oeuvres numériques, allant de l'animation à la
-                  réalité virtuelle en passant par les installations
+                  <span>Le festival d'arts numériques</span> eikonica
+                  <span>de Fribourg</span> est l'événement à ne pas manquer pour
+                  tous les amateurs de nouvelles technologies et d'art
+                  contemporain. Du <span>13 au 15 octobre</span>, venez explorer
+                  une grande variété d'oeuvres numériques, allant de l'animation
+                  à la réalité virtuelle en passant par les installations
                   interactives. Vous pourrez rencontrer des artistes locaux et
                   internationaux, assister à des conférences passionnantes et
-                  participer à des ateliers créatifs. Deux concerts à fri-son
+                  participer à des ateliers créatifs. Deux concerts à Fri-Son
                   permettront de prolonger les festivités.
                 </p>
               </div>
@@ -119,7 +135,8 @@
           </div>
         </div>
       </div>
-      <div class="program" id="program">
+      <div class="program-id" id="program"></div>
+      <div class="program">
         <div class="container">
           <div class="row">
             <div class="col-9">
@@ -245,12 +262,17 @@
           </div>
         </div>
       </div>
-      <div class="exposition" id="expo">
+      <div class="exposition-id" id="expo"></div>
+      <div class="exposition">
         <div class="container">
           <div class="row">
             <div class="col-12">
               <div class="exposition-background">
-                <img src="../src/img/background-img.webp" alt="Oeuvre" />
+                <!-- <img src="../src/img/background-img.webp" alt="Oeuvre" /> -->
+                <video autoplay muted loop>
+                  <source src="../src/video/personne.mp4" type="video/mp4" />
+                  <!-- <source src="movie.ogg" type="video/ogg" /> -->
+                </video>
               </div>
             </div>
           </div>
@@ -273,13 +295,13 @@
                             class="exposition-artwork exposition-artwork-one"
                           />
                           <img
-                            src="../src/img/oeuvre4.webp"
-                            alt="Oeuvre4"
+                            src="../src/img/oeuvre2.webp"
+                            alt="Oeuvre2"
                             class="exposition-artwork"
                           />
                           <img
-                            src="../src/img/oeuvre7.webp"
-                            alt="Oeuvre7"
+                            src="../src/img/oeuvre3.webp"
+                            alt="Oeuvre3"
                             class="exposition-artwork"
                           />
                         </div>
@@ -287,8 +309,8 @@
                       <div class="col-4">
                         <div class="exposition-images exposition-images-two">
                           <img
-                            src="../src/img/oeuvre2.webp"
-                            alt="Oeuvre2"
+                            src="../src/img/oeuvre4.webp"
+                            alt="Oeuvre4"
                             class="exposition-artwork exposition-artwork-one"
                           />
                           <img
@@ -297,8 +319,8 @@
                             class="exposition-artwork"
                           />
                           <img
-                            src="../src/img/oeuvre8.webp"
-                            alt="Oeuvre8"
+                            src="../src/img/oeuvre6.webp"
+                            alt="Oeuvre6"
                             class="exposition-artwork"
                           />
                         </div>
@@ -306,13 +328,13 @@
                       <div class="col-4">
                         <div class="exposition-images exposition-images-three">
                           <img
-                            src="../src/img/oeuvre3.webp"
-                            alt="Oeuvre3"
+                            src="../src/img/oeuvre7.webp"
+                            alt="Oeuvre7"
                             class="exposition-artwork exposition-artwork-one"
                           />
                           <img
-                            src="../src/img/oeuvre6.webp"
-                            alt="Oeuvre6"
+                            src="../src/img/oeuvre8.webp"
+                            alt="Oeuvre8"
                             class="exposition-artwork"
                           />
                           <img
@@ -330,7 +352,8 @@
           </div>
         </div>
       </div>
-      <div class="information" id="infos">
+      <div class="information-id" id="infos"></div>
+      <div class="information">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -371,7 +394,7 @@
                       <p>
                         Eikon<br />
                         Rte Wilhelm Kaiser 13<br />
-                        1700, Fribourg
+                        1700 Fribourg
                       </p>
                     </div>
                     <div
@@ -380,7 +403,7 @@
                       <p>
                         Fri-Son<br />
                         Rte de la Fonderie 13<br />
-                        1700, Fribourg
+                        1700 Fribourg
                       </p>
                     </div>
                   </div>
@@ -529,8 +552,8 @@
             <div class="row">
               <div class="col-12">
                 <div class="reservation-text">
-                  Réserve maintenant tes billets pour vivre cette
-                  <span>experience émotionnelle</span> !
+                  Réservez maintenant vos billets pour vivre cette
+                  <span>expérience émotionnelle</span> !
                 </div>
               </div>
             </div>
@@ -546,7 +569,10 @@
           </div>
         </div>
       </div>
-      <div class="partner" id="partner">
+    </main>
+    <footer>
+      <div class="partner-id" id="partner"></div>
+      <div class="partner">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -597,20 +623,21 @@
           </div>
         </div>
       </div>
-    </main>
-    <footer>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="contact" id="contact">
+            <div class="contact-id" id="contact"></div>
+            <div class="contact">
               <div class="row">
-                <div class="col-7">
+                <div class="col-6">
                   <div class="contact-links">
-                    <a href="">Politique de confidentialité</a><br />
-                    <p>© 2023 eikonica</p>
+                    <a href="droits.html" class="contact-second-link"
+                      >Politique et mentions légales</a
+                    ><br />
+                    <p>© 2023 eikonica. Tous droits réservés.</p>
                   </div>
                 </div>
-                <div class="col-2 offset-3">
+                <div class="col-4 offset-2">
                   <div class="contact-socialmedia">
                     <div class="row">
                       <div class="col-12">
@@ -621,25 +648,38 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-4">
-                        <a href="https://www.linkedin.com/">
-                          <i class="fa-brands fa-linkedin contact-logo"></i>
-                        </a>
-                      </div>
-                      <div class="col-4">
-                        <a href="https://www.instagram.com/">
-                          <i
-                            class="fa-brands fa-square-instagram contact-logo"
-                          ></i>
-                        </a>
-                      </div>
-                      <div class="col-4">
-                        <a href="https://www.facebook.com/">
-                          <i
-                            class="fa-brands fa-square-facebook contact-logo"
-                          ></i>
-                        </a>
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-3">
+                          <a href="https://www.linkedin.com/">
+                            <i class="fa-brands fa-linkedin contact-logo"></i>
+                          </a>
+                        </div>
+                        <div class="col-3">
+                          <a href="https://www.instagram.com/">
+                            <i
+                              class="fa-brands fa-square-instagram contact-logo"
+                            ></i>
+                          </a>
+                        </div>
+                        <div class="col-3">
+                          <a href="https://www.facebook.com/">
+                            <i
+                              class="fa-brands fa-square-facebook contact-logo"
+                            ></i>
+                          </a>
+                        </div>
+                        <div class="col-3">
+                          <div class="contact-top-button">
+                            <button>
+                              <a href="#top" class="contact-back-up"
+                                ><img
+                                  src="../src/img/up-button.webp"
+                                  alt="Retour en haut"
+                              /></a>
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
