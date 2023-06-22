@@ -24,6 +24,10 @@
   position: absolute;
 }
 
+.information-activities {
+  border-top: solid 2px var(--ligne-color);
+}
+
 .information-pictogram i {
   font-size: 40px;
   line-height: 40px;
@@ -31,26 +35,17 @@
   padding-top: 26px;
 }
 
-.information-activities {
-  border-top: solid 2px var(--ligne-color);
-  // border-bottom: solid 2px var(--ligne-color);
-}
-
-.information-last-activity {
-  border-bottom: solid 2px var(--ligne-color);
-}
-
 .information-infos {
   font-size: 30px;
   line-height: 36px;
 }
 
-.information-second {
+.information-subtitle-one {
+  padding-top: 26px;
   padding-bottom: 26px;
 }
 
-.information-first {
-  padding-top: 26px;
+.information-subtitle-two {
   padding-bottom: 26px;
 }
 
@@ -68,6 +63,10 @@
 
 .information-eight {
   padding-top: 100px;
+}
+
+.information-last-activity {
+  border-bottom: solid 2px var(--ligne-color);
 }
 
 .information-ticketing:hover {
