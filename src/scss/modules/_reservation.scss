@@ -1,13 +1,12 @@
-.reservation-background-image img {
-  width: 100%;
-  height: auto;
-  // opacity: 50%;
-  filter: blur(6);
-}
-
 .reservation-background-image {
   position: relative;
   margin-bottom: 160px;
+}
+
+.reservation-background-image img {
+  width: 100%;
+  height: auto;
+  filter: blur(6);
 }
 
 .reservation {
